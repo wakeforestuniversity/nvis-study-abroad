@@ -1,0 +1,50 @@
+@use '../common/variables' as *;
+
+:root {
+  --nvis-active-color: #206bba;
+  --nvis-active-color-text: #fff;
+  --nvis-gray: #999;
+  --nvis-green: #417d2b;
+  --nvis-red: #9d2e2a;
+  --nvis-highlight: #ffedc2;
+  --nvis-spacing: 1rem;
+  --nvis-spacing-half: calc(0.5 * var(--nvis-spacing));
+  --nvis-spacing-2x: calc(2 * var(--nvis-spacing));
+  --nvis-spacing-3x: calc(3 * var(--nvis-spacing));
+  --nvis-spacing-4x: calc(4 * var(--nvis-spacing));
+  --nvis-sidebar-width: 20%;
+  --nvis-background-blur: 3px;
+  --nvis-background-opacity: 0.33;
+}
+
+@media (max-width: $screen-md-max) {
+  :root {
+    --nvis-sidebar-width: 25%;
+  }
+}
+
+@keyframes nvis-fade-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes nvis-flash-highlight {
+  0% {
+    background: var(--nvis-highlight);
+  }
+
+  25% {
+    background: var(--nvis-highlight);
+  }
+
+  100% {
+    background: transparent;
+  }
+}

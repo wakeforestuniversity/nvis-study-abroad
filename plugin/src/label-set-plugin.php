@@ -1,0 +1,40 @@
+<?php
+
+return [
+    'featured'               => __('Featured', 'nvis-study-abroad'),
+    'program_info'           => __('Program Information', 'nvis-study-abroad'),
+    /* translators: the placeholder could be one of: "{city},{country}", "Multiple Cities in {country}", or "Multiple Countries" */
+    'program_map'            => __('Map of %s', 'nvis-study-abroad'),
+    'apply_now_action'       => __('Apply Now', 'nvis-study-abroad'),
+    'request_info_action'    => __('Request Info', 'nvis-study-abroad'),
+    'prog_homepage_action'   => __('Visit Program Homepage', 'nvis-study-abroad'),
+    'upcoming_dates'         => __('Upcoming Dates', 'nvis-study-abroad'),
+    'program_dates'          => __('Program Dates', 'nvis-study-abroad'),
+    'app_deadline'           => __('Application Deadline', 'nvis-study-abroad'),
+    'app_deadlines'          => __('Application Deadlines', 'nvis-study-abroad'),
+    'decision_date'          => __('Decision Date', 'nvis-study-abroad'),
+    'program_start'          => __('Program Start', 'nvis-study-abroad'),
+    'program_end'            => __('Program End', 'nvis-study-abroad'),
+    'additional_details'     => __('Additional Details', 'nvis-study-abroad'),
+    'missing_date'           => __('Forthcoming', 'nvis-study-abroad'),
+    'contact_info'           => __('Contact Info', 'nvis-study-abroad'),
+    'yes'                    => __('Yes', 'nvis-study-abroad'),
+    'no'                     => __('No', 'nvis-study-abroad'),
+    'show'                   => __('Show', 'nvis-study-abroad'),
+    'hide'                   => __('Hide', 'nvis-study-abroad'),
+    'more_filters'           => __('More Filters', 'nvis-study-abroad'),
+    'filter'                 => __('Filter', 'nvis-study-abroad'),
+    'filter_your_search'     => __('Filter your Search', 'nvis-study-abroad'),
+    'apply_filters'          => __('Search', 'nvis-study-abroad'),
+    'reset_filters'          => __('Reset', 'nvis-study-abroad'),
+    'missing_filters_data'   => __('Missing data to render filters.', 'nvis-study-abroad'),
+    /* translators: The placeholder is the name of the filter. It will be translated separately. */
+    'missing_filter_data'    => __('Missing data to render %s filter', 'nvis-study-abroad'),
+    'filtered_results'       => __('Filtered Results', 'nvis-study-abroad'),
+    'showing'                => __('Showing', 'nvis-study-abroad'),
+    /* translators: Number of results (e.g. 'Showing 1-10 of 120 posts'). Note: the last placeholder is the name of the post_type.  */
+    'showing_of'             => __('Showing %1$s–%2$s of %3$s %4$s.', 'nvis-study-abroad'),
+    'keyword'                => __('Keyword', 'nvis-study-abroad'),
+    'none_selected_prefix'   => __('Any ', 'nvis-study-abroad'),
+    'lightbox_dialog_title'  => __('Media Gallery Lightbox', 'nvis-study-abroad'),
+];
