@@ -1,0 +1,26 @@
+# Bundled Advanced Custom Fields & Freemius.
+plugin/src/acf
+plugin/src/freemius
+
+# No builds.
+*.zip
+
+# Developer Artifacts.
+*.map
+.env
+/build
+/node_modules
+package-lock.json
+/vendor
+composer.lock
+.php_cs.cache
+.php-cs-fixer.cache
+.phpdoc
+/docs
+
+# File that we want to keep around temporarily.
+*.ignoreme
+
+plugin/src/vendor
+
+.idea/*
